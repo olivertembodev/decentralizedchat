@@ -1,0 +1,32 @@
+.chat-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.chat-input-wrapper {
+  background-color: #ececf3;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  padding: 2px 4px;
+  grid-gap: 6px;
+}
+
+.message-list {
+  height: calc(100vh - 41px);
+}
+
+
+
+.rce-button {
+  background: var(--primary);
+}
+
+.sidebar {
+  background: #dfdfe9;
+}
+
+.sidebar-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
